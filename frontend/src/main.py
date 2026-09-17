@@ -1,4 +1,4 @@
-# src/main.py
+# Crear el personaje de Tamagochi
 
 class Tamagochi:
     def __init__(self, nombre):
