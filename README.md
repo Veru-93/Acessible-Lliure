@@ -32,7 +32,7 @@ Arquitectura Local-First: Implementar bases de datos locales cifradas. La sincro
 - Soberanía Lingüística: Diseñar la arquitectura para facilitar la localización inmediata en catalán y castellano, y más adelante en gallego y euskera, promoviendo la diversidad lingüística en el entorno digital.
 
 
-4. # Mapeo de testeo ético #
+# 4. Mapeo de testeo ético
 
 Realizaremos un Análisis Competitivo Ético:
 - Entrevistaremos a usuarios actuales para saber qué apps usan realmente.
