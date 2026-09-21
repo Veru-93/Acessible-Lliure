@@ -16,7 +16,7 @@ Para una persona de estas características estos datos son aún más delicados, 
 ##2.1 **Falta de Alternativas Éticas**
 Existen lectores de pantalla y recordatorios, pero casi todos están integrados en sistemas operativos propietarios o requieren cuentas en la nube centralizada. No existe en el mercado hispanohablante una solución integral, gratuita, auditable y sin rastreo, pensada desde el diseño inclusivo (Design for Accessibility).
 
-### 2. **Herramienta de punto de partida**
+#3. **Herramienta de punto de partida**
 Tamagochi retro. Funcionalidades Principales:
 - Autenticación Local: La autenticación será local, almacenando los datos del usuario en el dispositivo del usuario, asegurando la privacidad y la seguridad de los datos personales.
 - Recompensa Gamificada: El usuario puede ganar estrellas por realizar tareas diarias, lo que puede traducirse en decoraciones o bonificaciones dentro de la plataforma.
@@ -32,7 +32,7 @@ Arquitectura Local-First: Implementar bases de datos locales cifradas. La sincro
 - Soberanía Lingüística: Diseñar la arquitectura para facilitar la localización inmediata en catalán y castellano, y más adelante en gallego y euskera, promoviendo la diversidad lingüística en el entorno digital.
 
 
-### Mapeo de testeo ético ### 
+4. # Mapeo de testeo ético #
 
 Realizaremos un Análisis Competitivo Ético:
 - Entrevistaremos a usuarios actuales para saber qué apps usan realmente.
@@ -40,7 +40,7 @@ Realizaremos un Análisis Competitivo Ético:
 - Publicaremos un informe abierto ("Informe de Vigilancia en Herramientas Asistenciales") que servirá como justificación técnica de por qué necesitamos construir alternativas.
 Ese informe alimentará directamente el Product Backlog inicial: las funciones más críticas y con mayor riesgo de privacidad pasarán a ser los primeros Sprints.
 
-5. PLAN DE TRABAJO A 6 MESES (Roadmap Agile)
+# 5. PLAN DE TRABAJO A 6 MESES (Roadmap Agile)
 Este plan se divide en fases macro, pero dentro de cada fase ejecutaremos sprints 1 vez a la semana.
 MES 1: FASE PUNTO DE PARTIDA
 Sprint 1: Reclutamiento de usuarios testers voluntarios y firma de consentimientos éticos. Inicio de entrevistas cualitativas. (ya en marcha, personas voluntarias van entregando feedback)
@@ -58,27 +58,27 @@ Sprint 8: Creación de lector de Texto Local
 Sprint 9: Integración de funcioanlidades, pruebas de rendimiento y seguridad inicial.
 Entregable MVP instalable. Código fuente publicado en GitHub/Forgejo.
 
-Transversal
+*Transversal*
 Redacción de documentación técnica para desarrolladores (API, arquitectura) y manual de usuario final (guías visuales y en vídeo accesibles).
 Testing con personas usuarias finales reales. Registro de bugs y mejoras de UX. Corrección de fallos críticos y ajuste de interfaz según feedback (ej. tamaños de letra, contraste, flujos de navegación).
 Preparación de materiales de divulgación, presentación final al financiador y apertura de canal de soporte comunitario.
 Entregable Final: Plataforma operativa, documentación completa, memoria técnica del proceso Agile y reporte de impacto inicial.
 
-6. METODOLOGÍA TÉCNICA Y ÉTICA
+# 5. METODOLOGÍA TÉCNICA Y ÉTICA
 Se trabajará bajo los principios rectores de Xnet (infraestructura libre, redes comunitarias) y Accent Obert (cultura digital crítica):
 Código Abierto y Auditable: Todo el código fuente estará publicado en un repositorio federado permitiendo que cualquier experto pueda auditar la seguridad y privacidad.
 Zero-Knowledge by Design: No recogeremos ningún dato analítico. No habrá cookies, trackers ni perfiles de usuario.
 Autosuficiencia Tecnológica: La plataforma podrá ser autoalojada (self-hosted) por entidades públicas o asociaciones.
 Participación Comunitaria: Las potencionales personas usurias no son "clientela", son co-diseñadores. Su feedback en las Sprint Reviews determina el roadmap futuro.
 
-7. IMPACTO Y PERSONAS BENEFICIARIAS
+# 6. IMPACTO Y PERSONAS BENEFICIARIAS
 Personas beneficiarias directas: personas neurodivergente (Autistas, TDAH o divergentes atencionales, down, dislexia...), discapacidad visual y cognitiva, física, movilidad reducida o condición de cualquier tipo.
 Personas beneficiarias indirectas: Familias, cuidadores, profesionales de la educación/salud, instituciones públicas y privadas, entidades sociales.
 Impacto Social: Demostrar que la innovación tecnológica puede ser ética, humana y democrática. Romper el paradigma de que "para ser útil hay que vender datos".
 Escalabilidad: Al ser software libre, otras regiones o países pueden clonar y adaptar la plataforma a sus necesidades específicas sin pagar licencias.
 
 
-### Estructura del Proyecto
+# 7. Estructura del Proyecto
 ```
 accessible-lliure/
 ├── backend/
