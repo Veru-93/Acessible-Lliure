@@ -1,13 +1,13 @@
 # Acessible-Lliure
 
 
-## 1. **Introducción**
+# 1. **Introducción**
 Acessible Lliure es una plataforma de herramientas libres y descentralizadas diseñadas específicamente para personas neurodivergente (Autistas, TDAH o divergentes atencionales, down, dislexia...), discapacidad visual y cognitiva, física, movilidad reducida o condición de cualquier tipo. 
 
 Actualmente, estas personas dependen de herramientas propietarias (ecosistemas cerrados de Big Tech) para gestionar aspectos críticos de su autonomía diaria, como la medicación, las rutinas o la lectura. Esta dependencia implica una cesión masiva de datos sensibles de salud y hábitos personales a corporaciones cuyo modelo de negocio se basa en la extracción y monetización de información.
 Nuestra propuesta: Una alternativa Open Source, Local-First (los datos viven en el dispositivo del usuario) y accesible radicalmente (WCAG 2.2 AA). Devolvemos la soberanía digital a quienes más lo necesitan, eliminando la vigilancia algorítmica y garantizando la continuidad del servicio independientemente de las decisiones comerciales de grandes tecnológicas.
 
-##2. **La Vulnerabilidad Doble**
+#2. **La Vulnerabilidad Doble**
 Las personas con las problemáticas planteadas enfrentan una doble brecha:
 Brecha de Accesibilidad: Necesitan tecnología asistencial para participar plenamente en sociedad.
 Brecha de Privacidad: Al usar las pocas herramientas disponibles (suelen ser apps móviles populares), entregan datos extremadamente sensibles (ubicación exacta, horarios médicos, estado emocional, interacciones sociales) a servidores opacos.
