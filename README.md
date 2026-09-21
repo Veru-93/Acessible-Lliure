@@ -1,131 +1,82 @@
 # Acessible-Lliure
 
 
-### 1. **Introducción**
-Acessible Lliure es una plataforma de accesibilidad soberana y ética para personas neurodivergentes, discapacitadas 
-visuales y cognitivas, físicas, o con movilidad reducida. Actualmente, estas personas dependen de herramientas 
-propietarias cerradas de Big Tech para gestionar aspectos críticos de su autonomía diaria. Acessible Lliure busca ofrecer 
-una alternativa Open Source, Local-First, y accesible (WCAG 2.2 AA) que devuelva la soberanía digital a quienes más lo 
-necesitan, eliminando la vigilancia algorítmica y garantizando la continuidad del servicio independientemente de las 
-decisiones comerciales de grandes tecnológicas.
+## 1. **Introducción**
+Acessible Lliure es una plataforma de herramientas libres y descentralizadas diseñadas específicamente para personas neurodivergente (Autistas, TDAH o divergentes atencionales, down, dislexia...), discapacidad visual y cognitiva, física, movilidad reducida o condición de cualquier tipo. 
 
-### 2. **MVP (Minimum Viable Product): Tamagochi Retro**
-El MVP será un Tamagochi retro que te dé estrellitas como puntos ganados cuando le indiques que has hecho tareas de la 
-vida diaria como recompensa. En el futuro, esta plataforma tendrá funcionalidades de recompensa gamificadas como obtener 
-decoraciones, entre otros.
+Actualmente, estas personas dependen de herramientas propietarias (ecosistemas cerrados de Big Tech) para gestionar aspectos críticos de su autonomía diaria, como la medicación, las rutinas o la lectura. Esta dependencia implica una cesión masiva de datos sensibles de salud y hábitos personales a corporaciones cuyo modelo de negocio se basa en la extracción y monetización de información.
+Nuestra propuesta: Una alternativa Open Source, Local-First (los datos viven en el dispositivo del usuario) y accesible radicalmente (WCAG 2.2 AA). Devolvemos la soberanía digital a quienes más lo necesitan, eliminando la vigilancia algorítmica y garantizando la continuidad del servicio independientemente de las decisiones comerciales de grandes tecnológicas.
 
-#### 2.1. **Funcionalidades Principales:**
-- **Autenticación Local:** La autenticación será local, almacenando los datos del usuario en el dispositivo del usuario, 
-asegurando la privacidad y la seguridad de los datos personales.
-- **Recompensa Gamificada:** El usuario puede ganar estrellas por realizar tareas diarias, lo que puede traducirse en 
-decoraciones o bonificaciones dentro de la plataforma.
-- **Interfaz Retro:** La interfaz de usuario será inspirada en los Tamagochis retro, lo que puede ser más accesible y 
-familiar para algunas personas neurodivergentes.
-- **Accesibilidad Avanzada:** Cumplir con estándares WCAG 2.2 AA para garantizar la accesibilidad total, lo que incluye 
-alternativas de texto para los sonidos y opciones de tamaño de fuente.
+##2. **La Vulnerabilidad Doble**
+Las personas con las problemáticas planteadas enfrentan una doble brecha:
+Brecha de Accesibilidad: Necesitan tecnología asistencial para participar plenamente en sociedad.
+Brecha de Privacidad: Al usar las pocas herramientas disponibles (suelen ser apps móviles populares), entregan datos extremadamente sensibles (ubicación exacta, horarios médicos, estado emocional, interacciones sociales) a servidores opacos.
+Para una persona de estas características estos datos son aún más delicados, ya que revelan patrones de comportamiento y necesidades de apoyo constantes. En manos de terceros comerciales, esto representa un riesgo de discriminación, profilaxis indebida o simplemente explotación publicitaria.
 
-#### 2.2. **Arquitectura:**
-- **Frontend:** Usar React o Vue.js para una interfaz moderna y accesible.
-- **Backend:** Implementar una API RESTful usando Node.js y Express.js.
-- **Base de Datos:** Utilizar SQLite para almacenar los datos del usuario de manera local.
-- **Autenticación:** Implementar autenticación local utilizando JWT (JSON Web Tokens).
+##2.1 **Falta de Alternativas Éticas**
+Existen lectores de pantalla y recordatorios, pero casi todos están integrados en sistemas operativos propietarios o requieren cuentas en la nube centralizada. No existe en el mercado hispanohablante una solución integral, gratuita, auditable y sin rastreo, pensada desde el diseño inclusivo (Design for Accessibility).
 
-### 3. **Desarrollo Modular y Descentralizado**
-Acessible Lliure estará compuesta por aplicaciones modulares y descentralizadas, lo que facilitará su desarrollo, 
-mantenimiento y escalabilidad. Cada aplicación será un módulo que puede ser desarrollado y actualizado 
-independientemente.
+### 2. **Herramienta de punto de partida**
+Tamagochi retro. Funcionalidades Principales:
+- Autenticación Local: La autenticación será local, almacenando los datos del usuario en el dispositivo del usuario, asegurando la privacidad y la seguridad de los datos personales.
+- Recompensa Gamificada: El usuario puede ganar estrellas por realizar tareas diarias, lo que puede traducirse en decoraciones o bonificaciones dentro de la plataforma.
+- Interfaz Retro: La interfaz de usuario será inspirada en los Tamagochis retro, lo que puede ser más accesible y familiar para algunas personas neurodivergentes.
+- Accesibilidad Avanzada:Cumplir con estándares WCAG 2.2 AA para garantizar la accesibilidad total, lo que incluye alternativas de texto para los sonidos y opciones de tamaño de fuente.
 
-#### 3.1. **Módulos:**
-- **Módulo de Autenticación:** Manejo de cuentas de usuario y autenticación local.
-- **Módulo de Tareas diarias:** Registro y seguimiento de tareas diarias y recompensas.
-- **Módulo de Configuración de Tarea Diaria:** Permite personalizar las tareas diarias y sus recompensas.
-- **Módulo de Decoraciones:** Permite obtener y personalizar decoraciones dentro de la plataforma.
-- **Módulo de Soporte y Notificaciones:** Ofrece soporte al usuario y notificaciones importantes.
+(Funcionalidad futura) Lector de Texto Offline: Motor de síntesis de voz local (sin enviar audio a la nube).
+(Funcionalidad futura) Organizador Visual de Tareas: Interfaz simplificada, baja carga sensorial, compatible con lectores de pantalla.
+(Funcionalidad futura): A medida que avance el proyecto, iremos proponiendo de forma constante con la colaboración de stake-holders de colaboración voluntaria que testearán la plataforma y nos darán ideas sobre necesidades reales que se vayan descubriendo, así como las mismas que durante el proyecto vayan surgiendo. 
+Arquitectura Local-First: Implementar bases de datos locales cifradas. La sincronización entre dispositivos (si se activa) será End-to-End Encrypted (E2EE) y opcional.
 
-### 4. **Desarrollo Open Source y Local-First**
-Acessible Lliure será un proyecto Open Source, lo que fomenta la colaboración y la innovación. También seguirá el 
-principio de Local-First, asegurando que los datos del usuario vivan en el dispositivo del usuario, lo que garantiza la 
-privacidad y la seguridad de los datos personales.
+- Accesibilidad Radical: Cumplir WCAG 2.2 nivel AA desde la primera línea de código. Realizar pruebas de usabilidad con colectivos reales de discapacidad.
+- Soberanía Lingüística: Diseñar la arquitectura para facilitar la localización inmediata en catalán y castellano, y más adelante en gallego y euskera, promoviendo la diversidad lingüística en el entorno digital.
 
-#### 4.1. **Repositorio GitHub:**
-Crear un repositorio público en GitHub para el código fuente de Acessible Lliure, incluyendo documentación, issue tracker 
-y pull requests.
 
-#### 4.2. **Documentación:**
-Documentar el código fuente, los módulos y las funcionalidades para facilitar el desarrollo y la colaboración.
+### Mapeo de testeo ético ### 
 
-### 5. **Marketing y Despliegue**
-Para promocionar Acessible Lliure y desplegar la plataforma, se desarrollarán estrategias de marketing y despliegue.
+Realizaremos un Análisis Competitivo Ético:
+- Entrevistaremos a usuarios actuales para saber qué apps usan realmente.
+- Analizaremos los permisos de acceso de dichas apps (qué datos piden y para qué).
+- Publicaremos un informe abierto ("Informe de Vigilancia en Herramientas Asistenciales") que servirá como justificación técnica de por qué necesitamos construir alternativas.
+Ese informe alimentará directamente el Product Backlog inicial: las funciones más críticas y con mayor riesgo de privacidad pasarán a ser los primeros Sprints.
 
-#### 5.1. **Canal de Marketing:**
-- **Redes Sociales:** Utilizar redes sociales para promocionar el proyecto y recaudar fondos.
-- **Blog:** Crear un blog para mantener a los usuarios informados sobre el desarrollo del proyecto.
-- **Partnerships:** Buscar colaboraciones con organizaciones de apoyo a la accesibilidad y movilidad reducida.
+5. PLAN DE TRABAJO A 6 MESES (Roadmap Agile)
+Este plan se divide en fases macro, pero dentro de cada fase ejecutaremos sprints 1 vez a la semana.
+MES 1: FASE PUNTO DE PARTIDA
+Sprint 1: Reclutamiento de usuarios testers voluntarios y firma de consentimientos éticos. Inicio de entrevistas cualitativas. (ya en marcha, personas voluntarias van entregando feedback)
+Sprint 2: Reclutamiento de personas que colaboren con la idea de crear un equipo técnico consolidado con una metodología AGILE SCRUM (ya en marcha, se están realizando reuniones semanales)
+MES 2: FASE DE INVESTIGACIÓN
+ Análisis técnico de las apps propietarias dominantes. Documentación de permisos invasivos. Redacción del "Informe de Vigilancia".
+Informe público de análisis de riesgos de privacidad en apps de accesibilidad actuales + Definición del Product Backlog prioritario.
+MES 3-6: FASE DE DESARROLLO MVP (Minimum Viable Product)
+Sprint 3: Arquitectura base (stack tecnológico local-first, configuración de repositorio Git, CI/CD básico).
+Sprint 4: Desarrollo Autenticación Local
+Sprint 5. Recompensa Gamificada.
+Sprint 6: Interfaz Retro. 
+Sprint 7: Accesibilidad Avanzada
+Sprint 8: Creación de lector de Texto Local 
+Sprint 9: Integración de funcioanlidades, pruebas de rendimiento y seguridad inicial.
+Entregable MVP instalable. Código fuente publicado en GitHub/Forgejo.
 
-#### 5.2. **Despliegue:**
-- **Plataformas de Despliegue:** Utilizar plataformas como GitHub Actions para automatizar el despliegue de la 
-aplicación.
-- **Servicios de Hosting:** Utilizar servicios de hosting local para garantizar la privacidad y la seguridad 
-de los datos personales.
+Transversal
+Redacción de documentación técnica para desarrolladores (API, arquitectura) y manual de usuario final (guías visuales y en vídeo accesibles).
+Testing con personas usuarias finales reales. Registro de bugs y mejoras de UX. Corrección de fallos críticos y ajuste de interfaz según feedback (ej. tamaños de letra, contraste, flujos de navegación).
+Preparación de materiales de divulgación, presentación final al financiador y apertura de canal de soporte comunitario.
+Entregable Final: Plataforma operativa, documentación completa, memoria técnica del proceso Agile y reporte de impacto inicial.
 
-### 6. **Comunidad y Soporte**
-Acessible Lliure fomentará la comunidad y el soporte al usuario.
+6. METODOLOGÍA TÉCNICA Y ÉTICA
+Se trabajará bajo los principios rectores de Xnet (infraestructura libre, redes comunitarias) y Accent Obert (cultura digital crítica):
+Código Abierto y Auditable: Todo el código fuente estará publicado en un repositorio federado permitiendo que cualquier experto pueda auditar la seguridad y privacidad.
+Zero-Knowledge by Design: No recogeremos ningún dato analítico. No habrá cookies, trackers ni perfiles de usuario.
+Autosuficiencia Tecnológica: La plataforma podrá ser autoalojada (self-hosted) por entidades públicas o asociaciones.
+Participación Comunitaria: Las potencionales personas usurias no son "clientela", son co-diseñadores. Su feedback en las Sprint Reviews determina el roadmap futuro.
 
-#### 6.1. **Foro y Chat de Soporte:**
-Crear un foro y chat de soporte para ayudar a los usuarios con preguntas y problemas.
+7. IMPACTO Y PERSONAS BENEFICIARIAS
+Personas beneficiarias directas: personas neurodivergente (Autistas, TDAH o divergentes atencionales, down, dislexia...), discapacidad visual y cognitiva, física, movilidad reducida o condición de cualquier tipo.
+Personas beneficiarias indirectas: Familias, cuidadores, profesionales de la educación/salud, instituciones públicas y privadas, entidades sociales.
+Impacto Social: Demostrar que la innovación tecnológica puede ser ética, humana y democrática. Romper el paradigma de que "para ser útil hay que vender datos".
+Escalabilidad: Al ser software libre, otras regiones o países pueden clonar y adaptar la plataforma a sus necesidades específicas sin pagar licencias.
 
-#### 6.2. **Eventos y Talleres:**
-Organizar eventos y talleres para capacitar a las personas en el uso de la plataforma y promover la accesibilidad.
-
-### 7. **Plan de Desarrollo**
-Planificar el desarrollo de Acessible Lliure en etapas, comenzando con el MVP y expandiéndose gradualmente con nuevas 
-funcionalidades y módulos.
-
-#### 7.1. **Etapas de Desarrollo:**
-- **Fase 1: MVP (6 meses)**
-  - Desarrollo del Tamagochi Retro
-  - Implementación de la autenticación local
-  - Implementación de la funcionalidad de recompensas
-- **Fase 2: Desarrollo de Módulos Adicionales (6-12 meses)**
-  - Implementación del módulo de configuración de tareas diarias
-  - Implementación del módulo de decoraciones
-- **Fase 3: Desarrollo de Funcionalidades Avanzadas (12-24 meses)**
-  - Implementación del módulo de soporte y notificaciones
-  - Mejora de la accesibilidad y experiencia de usuario
-
-### 8. **Recursos Necesarios**
-Identificar y gestionar los recursos necesarios para el desarrollo de Acessible Lliure.
-
-#### 8.1. **Recursos Humanos:**
-- **Desarrolladores Frontend y Backend**
-- ** Diseñadores UX/UI**
-- **Gerente de Proyecto**
-- **Soporte Técnico**
-
-#### 8.2. **Recursos Financieros:**
-- **Recaudación de fondos a través de crowdfunding**
-- **Sponsorships y patrocinios**
-- **Financiamiento público y privado**
-
-### 9. **Evaluación y Mejora Continua**
-Evaluar el éxito del proyecto y hacer mejoras continuas.
-
-#### 9.1. **Métricas de Éxito:**
-- **Adquisición de usuarios activos**
-- **Retención de usuarios**
-- **Recomendaciones y retroalimentación de usuarios**
-
-#### 9.2. **Iteraciones Continuas:**
-Evaluar el rendimiento de la plataforma y hacer ajustes y mejoras continuas en función de la retroalimentación y las 
-necesidades de los usuarios.
-
-### Conclusión
-Acessible Lliure es una iniciativa importante que busca ofrecer una alternativa accesible, soberana y ética a las 
-personas neurodivergentes, discapacitadas visuales y cognitivas, físicas, o con movilidad reducida. Con un enfoque en el 
-desarrollo modular, descentralizado, y Open Source, Acessible Lliure busca devolver la soberanía digital a quienes más lo 
-necesitan, garantizando la continuidad del servicio independientemente de las decisiones comerciales de grandes 
-tecnológicas. A través de un plan de desarrollo estructurado y una comunidad comprometida, Acessible Lliure puede 
-convertirse en una herramienta de cambio verdaderamente transformadora.
 
 ### Estructura del Proyecto
 ```
